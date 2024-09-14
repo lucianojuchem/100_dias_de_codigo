@@ -1,19 +1,17 @@
 #myDiv {
     width: 300px;
     height: 150px;
-    background-color: lightblue;
+    background-color: coral;
     text-align: center;
     line-height: 150px;
     font-size: 20px;
     margin-bottom: 20px;
     transition: all 0.5s ease;
-    /* Transição suave */
 }
 
 .changed {
-    background-color: coral;
+    background-color: black;
     color: white;
-    transform: scale(1.1);
-    /* Aumenta o tamanho em 10% */
+    transform: scale(1.15);
     border-radius: 15px;
 }
