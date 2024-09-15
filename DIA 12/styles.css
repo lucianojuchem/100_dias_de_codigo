@@ -25,20 +25,22 @@
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    color: white;
     font-size: 18px;
     padding: 20px;
     box-sizing: border-box;
+    border-radius: 25px;
 }
 
 /* Estilo da frente do card */
 .card-front {
-    background-color: #3498db;
+    background-color: black;
+    color: white;
 }
 
 /* Estilo do verso do card */
 .card-back {
-    background-color: #e74c3c;
+    background-color: grey;
+    color: black;
     transform: rotateY(180deg);
 }
 
